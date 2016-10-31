@@ -1,7 +1,8 @@
-# Laravel PHP Framework
+#Methys Vehicle Management System
+                    
 Laravel application that allows users to login, and managing a database of registered vehicles and their owners.
 
-## Official Documentation
+## Set Up
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
