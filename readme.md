@@ -21,5 +21,5 @@ Step:
 ## API
 
 My API is still under construction at least half way done. :) 
-All the url will be exposed as soon as it's done.
+All the urls will be exposed as soon as it's done.
 
