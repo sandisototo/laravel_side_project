@@ -5,9 +5,9 @@ Laravel application that allows users to login, and managing a database of regis
 ## SetUp
 
 Step:
-1. Clone the project into your working directory
-2. CD into the application directory
-3. Find 'env.example', copy it to '.env' (cp .env.example .env) 
+- Clone the project into your working directory
+- CD into the application directory
+- Find 'env.example', copy it to '.env' '$cp .env.example .env' 
 
 
 
