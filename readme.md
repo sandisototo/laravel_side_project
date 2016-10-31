@@ -2,7 +2,7 @@
                     
 Laravel application that allows users to login, and managing a database of registered vehicles and their owners.
 
-## SetUp
+## SetUp 
 
 Step:
 - Clone the project into your working directory
@@ -13,7 +13,7 @@ Step:
 - Use `php artisan migrate` command to create the necessary migrations
 - Use `php artisan db:seed` command to insert the neccessary records to test this application.
 - Finally, use `php artisan serve` to run the application 
-(Please note:  in my case I've used a local apache virtual host to run this application but you don't really need to. Hence my url looks something http://local.vehicles.co.za instead of http://localhost/ just for the fun of it. If you need to you might wanna have a look at https://httpd.apache.org/docs/current/vhosts/examples.html)
+(Please note:  In my case I've used a local apache virtual host to run this application but you don't really need to. Just in case you wondered why my url looks something like: http://local.vehicles.co.za instead of http://localhost/ It's just for the fun of it :). If you want to do this, you might wanna have a look at https://httpd.apache.org/docs/current/vhosts/examples.html)
 
 
 
