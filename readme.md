@@ -8,17 +8,18 @@ Step:
 - Clone the project into your working directory
 - CD into the application directory
 - Find 'env.example', copy it to '.env' //$cp .env.example .env
+- In '.env', change the database settings to point to your local database
+- Use `php artisan key:generate` command to generate an application key.
+- Use `php artisan migrate` command to create the necessary migrations
+- Use `php artisan db:seed` command to insert the neccessary records to test this application.
+- Finally, use `php artisan serve` to run the application 
+(Please note:  in my case I've used a local apache virtual host to run this application but you don't really need to. Hence my url looks something http://local.vehicles.co.za instead of http://localhost/ just for the fun of it. If you need to you might wanna have a look at https://httpd.apache.org/docs/current/vhosts/examples.html)
 
 
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## API
 
-## Security Vulnerabilities
+My API is still under construction at least half way done. :) 
+All the url will be exposed as soon as it's done.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
