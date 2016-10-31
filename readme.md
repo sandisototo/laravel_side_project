@@ -2,9 +2,14 @@
                     
 Laravel application that allows users to login, and managing a database of registered vehicles and their owners.
 
-## Set Up
+## SetUp
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Step:
+1. Clone the project into your working directory
+2. CD into the application directory
+3. Find 'env.example', copy it to '.env' (cp .env.example .env) 
+
+
 
 ## Contributing
 
